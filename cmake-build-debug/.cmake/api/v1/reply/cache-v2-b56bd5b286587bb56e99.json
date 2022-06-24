@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/nhinlechi/Documents/2k salary/leet_code/cmake-build-debug"
+			"value" : "/Users/nhinlechi/Documents/2k salary/leet_code/Leet-Code-Training/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/nhinlechi/Documents/2k salary/leet_code"
+			"value" : "/Users/nhinlechi/Documents/2k salary/leet_code/Leet-Code-Training"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -735,7 +735,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "12.1"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_OSX_SYSROOT",
@@ -1087,7 +1087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/nhinlechi/Documents/2k salary/leet_code/cmake-build-debug"
+			"value" : "/Users/nhinlechi/Documents/2k salary/leet_code/Leet-Code-Training/cmake-build-debug"
 		},
 		{
 			"name" : "leet_code_IS_TOP_LEVEL",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/nhinlechi/Documents/2k salary/leet_code"
+			"value" : "/Users/nhinlechi/Documents/2k salary/leet_code/Leet-Code-Training"
 		}
 	],
 	"kind" : "cache",

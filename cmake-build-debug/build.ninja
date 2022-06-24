@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/nhinlechi/Documents/2k$ salary/leet_code/cmake-build-debug/
+cmake_ninja_workdir = /Users/nhinlechi/Documents/2k$ salary/leet_code/Leet-Code-Training/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target leet_code
 
@@ -49,83 +49,89 @@ cmake_ninja_workdir = /Users/nhinlechi/Documents/2k$ salary/leet_code/cmake-buil
 
 build cmake_object_order_depends_target_leet_code: phony || CMakeFiles/leet_code.dir
 
-build CMakeFiles/leet_code.dir/main.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/main.cpp || cmake_object_order_depends_target_leet_code
+build CMakeFiles/leet_code.dir/main.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/Leet-Code-Training/main.cpp || cmake_object_order_depends_target_leet_code
   DEP_FILE = CMakeFiles/leet_code.dir/main.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++17
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/leet_code.dir
   OBJECT_FILE_DIR = CMakeFiles/leet_code.dir
 
-build CMakeFiles/leet_code.dir/greedy/Assign_Cookies.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/greedy/Assign$ Cookies.cpp || cmake_object_order_depends_target_leet_code
+build CMakeFiles/leet_code.dir/greedy/Assign_Cookies.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/Leet-Code-Training/greedy/Assign$ Cookies.cpp || cmake_object_order_depends_target_leet_code
   DEP_FILE = CMakeFiles/leet_code.dir/greedy/Assign_Cookies.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++17
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/leet_code.dir
   OBJECT_FILE_DIR = CMakeFiles/leet_code.dir/greedy
 
-build CMakeFiles/leet_code.dir/greedy/Remove_Digit_From_Number_to_Maximize_Result.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/greedy/Remove$ Digit$ From$ Number$ to$ Maximize$ Result.cpp || cmake_object_order_depends_target_leet_code
+build CMakeFiles/leet_code.dir/greedy/Remove_Digit_From_Number_to_Maximize_Result.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/Leet-Code-Training/greedy/Remove$ Digit$ From$ Number$ to$ Maximize$ Result.cpp || cmake_object_order_depends_target_leet_code
   DEP_FILE = CMakeFiles/leet_code.dir/greedy/Remove_Digit_From_Number_to_Maximize_Result.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++17
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/leet_code.dir
   OBJECT_FILE_DIR = CMakeFiles/leet_code.dir/greedy
 
-build CMakeFiles/leet_code.dir/dfs/Deepest_Leaves_Sum.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/dfs/Deepest$ Leaves$ Sum.cpp || cmake_object_order_depends_target_leet_code
+build CMakeFiles/leet_code.dir/dfs/Deepest_Leaves_Sum.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/Leet-Code-Training/dfs/Deepest$ Leaves$ Sum.cpp || cmake_object_order_depends_target_leet_code
   DEP_FILE = CMakeFiles/leet_code.dir/dfs/Deepest_Leaves_Sum.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++17
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/leet_code.dir
   OBJECT_FILE_DIR = CMakeFiles/leet_code.dir/dfs
 
-build CMakeFiles/leet_code.dir/bfs/Find_if_Path_Exists_in_Graph.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/bfs/Find$ if$ Path$ Exists$ in$ Graph.cpp || cmake_object_order_depends_target_leet_code
+build CMakeFiles/leet_code.dir/bfs/Find_if_Path_Exists_in_Graph.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/Leet-Code-Training/bfs/Find$ if$ Path$ Exists$ in$ Graph.cpp || cmake_object_order_depends_target_leet_code
   DEP_FILE = CMakeFiles/leet_code.dir/bfs/Find_if_Path_Exists_in_Graph.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++17
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/leet_code.dir
   OBJECT_FILE_DIR = CMakeFiles/leet_code.dir/bfs
 
-build CMakeFiles/leet_code.dir/binary_search/Find_Positive_Integer_Solution_for_a_Given_Equation.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/binary_search/Find$ Positive$ Integer$ Solution$ for$ a$ Given$ Equation.cpp || cmake_object_order_depends_target_leet_code
+build CMakeFiles/leet_code.dir/binary_search/Find_Positive_Integer_Solution_for_a_Given_Equation.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/Leet-Code-Training/binary_search/Find$ Positive$ Integer$ Solution$ for$ a$ Given$ Equation.cpp || cmake_object_order_depends_target_leet_code
   DEP_FILE = CMakeFiles/leet_code.dir/binary_search/Find_Positive_Integer_Solution_for_a_Given_Equation.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++17
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/leet_code.dir
   OBJECT_FILE_DIR = CMakeFiles/leet_code.dir/binary_search
 
-build CMakeFiles/leet_code.dir/binary_search/Capacity_To_Ship_Packages_Within_D_Days.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/binary_search/Capacity$ To$ Ship$ Packages$ Within$ D$ Days.cpp || cmake_object_order_depends_target_leet_code
+build CMakeFiles/leet_code.dir/binary_search/Capacity_To_Ship_Packages_Within_D_Days.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/Leet-Code-Training/binary_search/Capacity$ To$ Ship$ Packages$ Within$ D$ Days.cpp || cmake_object_order_depends_target_leet_code
   DEP_FILE = CMakeFiles/leet_code.dir/binary_search/Capacity_To_Ship_Packages_Within_D_Days.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++17
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/leet_code.dir
   OBJECT_FILE_DIR = CMakeFiles/leet_code.dir/binary_search
 
-build CMakeFiles/leet_code.dir/binary_tree/Sum_of_Nodes_with_Even-Valued_Grandparent.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/binary_tree/Sum$ of$ Nodes$ with$ Even-Valued$ Grandparent.cpp || cmake_object_order_depends_target_leet_code
+build CMakeFiles/leet_code.dir/binary_tree/Sum_of_Nodes_with_Even-Valued_Grandparent.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/Leet-Code-Training/binary_tree/Sum$ of$ Nodes$ with$ Even-Valued$ Grandparent.cpp || cmake_object_order_depends_target_leet_code
   DEP_FILE = CMakeFiles/leet_code.dir/binary_tree/Sum_of_Nodes_with_Even-Valued_Grandparent.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++17
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/leet_code.dir
   OBJECT_FILE_DIR = CMakeFiles/leet_code.dir/binary_tree
 
-build CMakeFiles/leet_code.dir/binary_tree/Contest_298.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/binary_tree/Contest$ 298.cpp || cmake_object_order_depends_target_leet_code
+build CMakeFiles/leet_code.dir/binary_tree/Contest_298.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/Leet-Code-Training/binary_tree/Contest$ 298.cpp || cmake_object_order_depends_target_leet_code
   DEP_FILE = CMakeFiles/leet_code.dir/binary_tree/Contest_298.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++17
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/leet_code.dir
   OBJECT_FILE_DIR = CMakeFiles/leet_code.dir/binary_tree
 
-build CMakeFiles/leet_code.dir/two_pointers/Long_Pressed_Name.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/two_pointers/Long$ Pressed$ Name.cpp || cmake_object_order_depends_target_leet_code
+build CMakeFiles/leet_code.dir/two_pointers/Long_Pressed_Name.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/Leet-Code-Training/two_pointers/Long$ Pressed$ Name.cpp || cmake_object_order_depends_target_leet_code
   DEP_FILE = CMakeFiles/leet_code.dir/two_pointers/Long_Pressed_Name.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++17
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/leet_code.dir
   OBJECT_FILE_DIR = CMakeFiles/leet_code.dir/two_pointers
 
-build CMakeFiles/leet_code.dir/two_pointers/Partition_Array_According_to_Given_Pivot.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/two_pointers/Partition$ Array$ According$ to$ Given$ Pivot.cpp || cmake_object_order_depends_target_leet_code
+build CMakeFiles/leet_code.dir/two_pointers/Partition_Array_According_to_Given_Pivot.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/Leet-Code-Training/two_pointers/Partition$ Array$ According$ to$ Given$ Pivot.cpp || cmake_object_order_depends_target_leet_code
   DEP_FILE = CMakeFiles/leet_code.dir/two_pointers/Partition_Array_According_to_Given_Pivot.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++17
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/leet_code.dir
   OBJECT_FILE_DIR = CMakeFiles/leet_code.dir/two_pointers
 
-build CMakeFiles/leet_code.dir/two_pointers/_Maximum_Twin_Sum_of_a_Linked_List.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/two_pointers/$ Maximum$ Twin$ Sum$ of$ a$ Linked$ List.cpp || cmake_object_order_depends_target_leet_code
+build CMakeFiles/leet_code.dir/two_pointers/_Maximum_Twin_Sum_of_a_Linked_List.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/Leet-Code-Training/two_pointers/$ Maximum$ Twin$ Sum$ of$ a$ Linked$ List.cpp || cmake_object_order_depends_target_leet_code
   DEP_FILE = CMakeFiles/leet_code.dir/two_pointers/_Maximum_Twin_Sum_of_a_Linked_List.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++17
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/leet_code.dir
   OBJECT_FILE_DIR = CMakeFiles/leet_code.dir/two_pointers
 
-build CMakeFiles/leet_code.dir/binary_search_tree/Construct_Binary_Search_Tree_from_Preorder_Traversal.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/binary_search_tree/Construct$ Binary$ Search$ Tree$ from$ Preorder$ Traversal.cpp || cmake_object_order_depends_target_leet_code
+build CMakeFiles/leet_code.dir/binary_search_tree/Construct_Binary_Search_Tree_from_Preorder_Traversal.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/Leet-Code-Training/binary_search_tree/Construct$ Binary$ Search$ Tree$ from$ Preorder$ Traversal.cpp || cmake_object_order_depends_target_leet_code
   DEP_FILE = CMakeFiles/leet_code.dir/binary_search_tree/Construct_Binary_Search_Tree_from_Preorder_Traversal.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -std=gnu++17
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
   OBJECT_DIR = CMakeFiles/leet_code.dir
   OBJECT_FILE_DIR = CMakeFiles/leet_code.dir/binary_search_tree
+
+build CMakeFiles/leet_code.dir/heap/Top_K_Frequent_Elements.cpp.o: CXX_COMPILER__leet_code_Debug /Users/nhinlechi/Documents/2k$ salary/leet_code/Leet-Code-Training/heap/Top$ K$ Frequent$ Elements.cpp || cmake_object_order_depends_target_leet_code
+  DEP_FILE = CMakeFiles/leet_code.dir/heap/Top_K_Frequent_Elements.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/leet_code.dir
+  OBJECT_FILE_DIR = CMakeFiles/leet_code.dir/heap
 
 
 # =============================================================================
@@ -135,8 +141,8 @@ build CMakeFiles/leet_code.dir/binary_search_tree/Construct_Binary_Search_Tree_f
 #############################################
 # Link the executable leet_code
 
-build leet_code: CXX_EXECUTABLE_LINKER__leet_code_Debug CMakeFiles/leet_code.dir/main.cpp.o CMakeFiles/leet_code.dir/greedy/Assign_Cookies.cpp.o CMakeFiles/leet_code.dir/greedy/Remove_Digit_From_Number_to_Maximize_Result.cpp.o CMakeFiles/leet_code.dir/dfs/Deepest_Leaves_Sum.cpp.o CMakeFiles/leet_code.dir/bfs/Find_if_Path_Exists_in_Graph.cpp.o CMakeFiles/leet_code.dir/binary_search/Find_Positive_Integer_Solution_for_a_Given_Equation.cpp.o CMakeFiles/leet_code.dir/binary_search/Capacity_To_Ship_Packages_Within_D_Days.cpp.o CMakeFiles/leet_code.dir/binary_tree/Sum_of_Nodes_with_Even-Valued_Grandparent.cpp.o CMakeFiles/leet_code.dir/binary_tree/Contest_298.cpp.o CMakeFiles/leet_code.dir/two_pointers/Long_Pressed_Name.cpp.o CMakeFiles/leet_code.dir/two_pointers/Partition_Array_According_to_Given_Pivot.cpp.o CMakeFiles/leet_code.dir/two_pointers/_Maximum_Twin_Sum_of_a_Linked_List.cpp.o CMakeFiles/leet_code.dir/binary_search_tree/Construct_Binary_Search_Tree_from_Preorder_Traversal.cpp.o
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1
+build leet_code: CXX_EXECUTABLE_LINKER__leet_code_Debug CMakeFiles/leet_code.dir/main.cpp.o CMakeFiles/leet_code.dir/greedy/Assign_Cookies.cpp.o CMakeFiles/leet_code.dir/greedy/Remove_Digit_From_Number_to_Maximize_Result.cpp.o CMakeFiles/leet_code.dir/dfs/Deepest_Leaves_Sum.cpp.o CMakeFiles/leet_code.dir/bfs/Find_if_Path_Exists_in_Graph.cpp.o CMakeFiles/leet_code.dir/binary_search/Find_Positive_Integer_Solution_for_a_Given_Equation.cpp.o CMakeFiles/leet_code.dir/binary_search/Capacity_To_Ship_Packages_Within_D_Days.cpp.o CMakeFiles/leet_code.dir/binary_tree/Sum_of_Nodes_with_Even-Valued_Grandparent.cpp.o CMakeFiles/leet_code.dir/binary_tree/Contest_298.cpp.o CMakeFiles/leet_code.dir/two_pointers/Long_Pressed_Name.cpp.o CMakeFiles/leet_code.dir/two_pointers/Partition_Array_According_to_Given_Pivot.cpp.o CMakeFiles/leet_code.dir/two_pointers/_Maximum_Twin_Sum_of_a_Linked_List.cpp.o CMakeFiles/leet_code.dir/binary_search_tree/Construct_Binary_Search_Tree_from_Preorder_Traversal.cpp.o CMakeFiles/leet_code.dir/heap/Top_K_Frequent_Elements.cpp.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/leet_code.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -148,7 +154,7 @@ build leet_code: CXX_EXECUTABLE_LINKER__leet_code_Debug CMakeFiles/leet_code.dir
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/Users/nhinlechi/Documents/2k salary/leet_code/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/Users/nhinlechi/Documents/2k salary/leet_code/Leet-Code-Training/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -159,7 +165,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/Users/nhinlechi/Documents/2k salary/leet_code/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/nhinlechi/Documents/2k salary/leet_code" -B"/Users/nhinlechi/Documents/2k salary/leet_code/cmake-build-debug"
+  COMMAND = cd "/Users/nhinlechi/Documents/2k salary/leet_code/Leet-Code-Training/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/nhinlechi/Documents/2k salary/leet_code/Leet-Code-Training" -B"/Users/nhinlechi/Documents/2k salary/leet_code/Leet-Code-Training/cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -175,7 +181,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/nhinlechi/Documents/2k salary/leet_code/cmake-build-debug
+# Folder: /Users/nhinlechi/Documents/2k salary/leet_code/Leet-Code-Training/cmake-build-debug
 
 build all: phony leet_code
 

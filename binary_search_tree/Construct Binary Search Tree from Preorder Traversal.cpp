@@ -27,8 +27,3 @@ public:
     }
 };
 
-int main() {
-    Solution *s = new Solution();
-    vector<int> arr{8, 5, 1, 7, 10, 12};
-    s->bstFromPreorder(arr);
-}
