@@ -24,23 +24,23 @@ public:
     }
 };
 
-int main() {
-    // Solution
-    Solution *s = new Solution();
-
-    // DATA
-    vector<ListNode *> l{
-            new ListNode(1),
-            new ListNode(4),
-            new ListNode(3),
-            new ListNode(2),
-            new ListNode(5),
-            new ListNode(2),
-    };
-    for (int i = 0; i < l.size() - 1; i++) {
-        l[i]->next = l[i + 1];
-    }
-
-    s->partition(l[0], 3);
-    return 0;
-}
+//int main() {
+//    // Solution
+//    Solution *s = new Solution();
+//
+//    // DATA
+//    vector<ListNode *> l{
+//            new ListNode(1),
+//            new ListNode(4),
+//            new ListNode(3),
+//            new ListNode(2),
+//            new ListNode(5),
+//            new ListNode(2),
+//    };
+//    for (int i = 0; i < l.size() - 1; i++) {
+//        l[i]->next = l[i + 1];
+//    }
+//
+//    s->partition(l[0], 3);
+//    return 0;
+//}
