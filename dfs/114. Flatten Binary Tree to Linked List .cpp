@@ -1,7 +1,10 @@
 #include "../stdc++.h"
 
 class Solution {
+private:
+    TreeNode *prevNode;
 public:
+    // C1: Space: O(n), complexity: O(n)
     void flatten(TreeNode *root) {
         if (root == nullptr) return;
 
@@ -23,5 +26,18 @@ public:
         saver.push_back(root);
         dfs(root->left, saver);
         dfs(root->right, saver);
+    }
+
+    // C1: Space: O(1), complexity: O(n)
+    void flattenC2(TreeNode *root) {
+        if (root == nullptr) return;
+
+        flatten(root->right);
+        flatten(root->left);
+
+        root->left = nullptr;
+        root->right = prevNode;
+        // Save current node to serve
+        prevNode = root;
     }
 };
