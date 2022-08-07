@@ -3,12 +3,12 @@
 class Solution {
 private:
     vector<vector<int>> paths;
-    vector<bool> flags;
+    vector<bool> targetMemo;
 
 
 public:
     vector<vector<int>> allPathsSourceTarget(vector<vector<int>> &graph) {
-        flags = vector<bool>(graph.size(), false);
+        targetMemo = vector<bool>(graph.size(), false);
         vector<int> currentPath{0};
         dfsGraph(graph, currentPath, 0);
         return paths;
@@ -22,13 +22,13 @@ public:
 
         //
         for (auto x: graph[index]) {
-            if (!flags[x]) {
-                flags[x] = true;
+            if (!targetMemo[x]) {
+                targetMemo[x] = true;
                 currentPath.push_back(x);
 
                 dfsGraph(graph, currentPath, x);
 
-                flags[x] = false;
+                targetMemo[x] = false;
                 currentPath.pop_back();
             }
         }
