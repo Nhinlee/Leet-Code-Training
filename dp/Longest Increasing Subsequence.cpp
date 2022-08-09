@@ -3,7 +3,7 @@
 class Solution {
 public:
     // C1: Recursive
-    int lengthOfLIS(vector<int> &arr) {
+    int lengthOfLISC1(vector<int> &arr) {
         int longest = 1;
         _lengthOfLIS(arr, arr.size(), longest);
         return longest;
@@ -24,6 +24,27 @@ public:
         currentLongest = max(currentLongest, longest);
 
         return longest;
+    }
+
+    // C2: DP
+    int lengthOfLIS(vector<int> &arr) {
+        int n = arr.size();
+        vector<int> dp(n, 1);
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i; j++) {
+                if (arr[i] > arr[j]) {
+                    dp[i] = max(dp[i], dp[j] + 1);
+                }
+            }
+        }
+
+        int rs = dp[0];
+        for (int i = 1; i < n; i++) {
+            rs = max(rs, dp[i]);
+        }
+
+        return rs;
     }
 
 };
