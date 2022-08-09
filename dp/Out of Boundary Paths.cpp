@@ -83,9 +83,3 @@ public:
                || i == m && j == n;
     }
 };
-
-int main() {
-    Solution *s = new Solution();
-    cout << s->findPathsC2(1, 3, 3, 0, 1);
-
-}
