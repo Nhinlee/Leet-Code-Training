@@ -53,6 +53,59 @@ public:
         }
         return true;
     }
+
+    void performOperations(vector<int> &arr, vector<vector<int>> &operations) {
+        for (auto o: operations) {
+            reverseArr(arr, o[0], o[1]);
+        }
+    }
+
+    void reverseArr(vector<int> &arr, int i, int j) {
+        while (i < j) {
+            swap(arr[i], arr[j]);
+            i++;
+            j--;
+        }
+    }
+
+    int stockPairs(vector<int> &stockProfits, int target) {
+        map<int, int> flags;
+        vector<int> sets(stockProfits.size(), 0);
+        int rs = 0;
+
+        for (auto s: stockProfits) {
+            flags[s]++;
+        }
+
+        for (auto s: stockProfits) {
+            if (flags[target - s] > 0 && sets[s] == 0 && sets[target - s] == 0) {
+                sets[s]++;
+                sets[target - s]++;
+                rs++;
+            }
+        }
+
+        return rs;
+    }
+
+    int stockPairsV2(vector<int> &stockProfits, int target) {
+        map<int, int> flags;
+        int rs = 0;
+
+        for (auto s: stockProfits) {
+            flags[s]++;
+        }
+
+        for (auto s: stockProfits) {
+            if (flags[target - s] > 0) {
+                rs++;
+            }
+        }
+
+        return rs / 2;
+    }
+
+
 };
 
 typedef pair<string, int> Food;
@@ -93,17 +146,10 @@ public:
     }
 };
 
-//int main() {
-//    Solution *s = new Solution();
-//    vector<string> foods{"emgqdbo", "jmvfxjohq", "qnvseohnoe", "yhptazyko", "ocqmvmwjq"};
-//    vector<string> cuisines{"snaxol", "snaxol", "snaxol", "fajbervsj", "fajbervsj"};
-//    vector<int> ratings{9, 13, 7, 16, 10, 17, 16, 17};
-//    FoodRatings *f = new FoodRatings(foods, cuisines, ratings);
-//    f->changeRating("qnvseohnoe", 11);
-//    f->highestRated("fajbervsj");
-//    f->changeRating("emgqdbo", 3);
-//    f->changeRating("jmvfxjohq", 9);
-//    f->changeRating("emgqdbo", 14);
-//    f->highestRated("fajbervsj");
-//    f->highestRated("snaxol");
-//}
+int main() {
+    Solution *s = new Solution();
+    vector<int> arr{5, 7, 9, 13, 11, 6, 6, 3, 3,};
+    vector<vector<int>> operations{{1, 8},};
+    cout << s->stockPairsV2(arr, 12);
+    cout << "ABC";
+}

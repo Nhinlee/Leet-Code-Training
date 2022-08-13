@@ -1,3 +1,3 @@
-/Users/nhinlechi/Documents/2k salary/leet_code/Leet-Code-Training/cmake-build-debug/CMakeFiles/leet_code.dir
-/Users/nhinlechi/Documents/2k salary/leet_code/Leet-Code-Training/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/nhinlechi/Documents/2k salary/leet_code/Leet-Code-Training/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/lechinhin/Documents/Training/Leet-Code-Training/cmake-build-debug/CMakeFiles/leet_code.dir
+/Users/lechinhin/Documents/Training/Leet-Code-Training/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lechinhin/Documents/Training/Leet-Code-Training/cmake-build-debug/CMakeFiles/rebuild_cache.dir
