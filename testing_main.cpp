@@ -105,7 +105,58 @@ public:
         return rs / 2;
     }
 
+    vector<vector<int>> largestLocal(vector<vector<int>> &grid) {
+        vector<vector<int>> rs;
+        int n = grid.size(), m = grid[0].size();
+        for (int i = 0; i <= n - 3; i++) {
+            rs.push_back(vector<int>());
+            for (int j = 0; j <= m - 3; j++) {
+                int maxx = 0;
+                for (int k = i; k < i + 3; k++) {
+                    for (int l = j; l < j + 3; l++) {
+                        maxx = max(grid[k][l], maxx);
+                    }
+                }
+                rs[i].push_back(maxx);
+            }
+        }
+        return rs;
+    }
 
+    int edgeScore(vector<int> &edges) {
+        map<int, long> scores;
+        for (int i = 0; i < edges.size(); i++) {
+            scores[edges[i]] += i;
+        }
+        long maxx = 0, maxIndex = 0;
+        for (auto it: scores) {
+            if (it.second > maxx) {
+                maxx = it.second;
+                maxIndex = it.first;
+            }
+        }
+        return maxIndex;
+    }
+
+    string smallestNumber(string pattern) {
+        string smallestNum = "1";
+        char maxDigit = '1';
+        for (int i = 0; i < pattern.size(); i++) {
+            if (pattern[i] == 'D') {
+                smallestNum.push_back(smallestNum[i] - 1);
+                int j = i;
+                while (j >= 0 && pattern[j] != 'I') {
+                    smallestNum[j + 1]++;
+                    j--;
+                }
+                smallestNum[j + 1]++;
+            } else {
+                smallestNum.push_back(maxDigit + 1);
+            }
+            maxDigit++;
+        }
+        return smallestNum;
+    };
 };
 
 typedef pair<string, int> Food;
