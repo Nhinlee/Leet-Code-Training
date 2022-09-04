@@ -157,6 +157,50 @@ public:
         }
         return smallestNum;
     };
+
+    // Leet code - Weekly Contest 309
+    bool checkDistances(string s, vector<int> &distance) {
+        vector<int> sdis(distance.size());
+        vector<bool> appears(distance.size());
+        for (int i = 0; i < s.size(); i++) {
+            int index = s[i] - 'a';
+            appears[index] = true;
+
+            if (sdis[index] == 0) {
+                sdis[index] = i + 1;
+            } else {
+                sdis[index] = i - sdis[index];
+            }
+        }
+
+        for (int i = 0; i < sdis.size(); i++) {
+            if (appears[i] && sdis[i] != distance[i]) return false;
+        }
+        return true;
+    }
+
+    int longestNiceSubarray(vector<int> &nums) {
+        int n = nums.size(), currLength = 1, sum = nums[0];
+        int maxNiceLength = 1;
+
+        for (int i = 1; i < n; i++) {
+            currLength++;
+            if ((sum & nums[i]) == 0) {
+                maxNiceLength = max(currLength, maxNiceLength);
+            } else {
+                while (currLength > 1 && (sum & nums[i]) != 0) {
+                    sum ^= nums[i - currLength + 1];
+                    currLength--;
+                }
+            }
+            sum |= nums[i];
+        }
+
+        return maxNiceLength;
+    }
+
+    int numberOfWays(int startPos, int endPos, int k) {
+    }
 };
 
 typedef pair<string, int> Food;
@@ -199,8 +243,6 @@ public:
 
 int main() {
     Solution *s = new Solution();
-    vector<int> arr{5, 7, 9, 13, 11, 6, 6, 3, 3,};
-    vector<vector<int>> operations{{1, 8},};
-    cout << s->stockPairsV2(arr, 12);
-    cout << "ABC";
+    vector<int> arr{1, 3, 8, 48, 10};
+    cout << s->longestNiceSubarray(arr);
 }

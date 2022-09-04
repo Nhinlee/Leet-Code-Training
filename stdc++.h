@@ -7,6 +7,7 @@
 #include <numeric>
 #include <set>
 #include "regex"
+#include <bitset>
 
 
 using namespace std;
