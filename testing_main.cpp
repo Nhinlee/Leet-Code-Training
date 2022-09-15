@@ -241,8 +241,8 @@ public:
     }
 };
 
-int main() {
-    Solution *s = new Solution();
-    vector<int> arr{1, 3, 8, 48, 10};
-    cout << s->longestNiceSubarray(arr);
-}
+//int main() {
+//    Solution *s = new Solution();
+//    vector<int> arr{1, 3, 8, 48, 10};
+//    cout << s->longestNiceSubarray(arr);
+//}
