@@ -49,8 +49,8 @@ public:
     }
 };
 
-int main() {
-    Solution *s = new Solution();
-    Node *root = new Node();
-    s->levelOrder(root);
-}
+//int main() {
+//    Solution *s = new Solution();
+//    Node *root = new Node();
+//    s->levelOrder(root);
+//}
