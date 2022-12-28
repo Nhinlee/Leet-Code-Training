@@ -47,10 +47,10 @@ public:
     }
 };
 
-int main() {
-    Solution *s = new Solution();
-    vector<int> capacity = vector<int>{2, 3, 4, 5};
-    vector<int> rocks = vector<int>{1, 2, 4, 4};
-    cout << s->maximumBagsC2(capacity, rocks, 2);
-    return 0;
-}
+//int main() {
+//    Solution *s = new Solution();
+//    vector<int> capacity = vector<int>{2, 3, 4, 5};
+//    vector<int> rocks = vector<int>{1, 2, 4, 4};
+//    cout << s->maximumBagsC2(capacity, rocks, 2);
+//    return 0;
+//}
