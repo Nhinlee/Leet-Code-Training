@@ -59,10 +59,10 @@ public:
     }
 };
 
-int main() {
-    Solution *s = new Solution();
-    auto a = vector<int>{5, 4, 9};
-    cout << s->minStoneSum(a, 2);
-
-    return 0;
-}
+//int main() {
+//    Solution *s = new Solution();
+//    auto a = vector<int>{5, 4, 9};
+//    cout << s->minStoneSum(a, 2);
+//
+//    return 0;
+//}
