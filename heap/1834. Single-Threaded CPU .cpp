@@ -65,15 +65,15 @@ public:
 };
 
 // [[5,2],[7,2],[9,4],[6,3],[5,10],[1,1]]
-int main() {
-    Solution *s = new Solution();
-    auto tasks = vector<vector<int>>{
-            {5, 2},
-            {7, 2},
-            {9, 4},
-            {6, 3},
-            {5, 10},
-            {1, 1},
-    };
-    auto rs = s->getOrder(tasks);
-}
+//int main() {
+//    Solution *s = new Solution();
+//    auto tasks = vector<vector<int>>{
+//            {5, 2},
+//            {7, 2},
+//            {9, 4},
+//            {6, 3},
+//            {5, 10},
+//            {1, 1},
+//    };
+//    auto rs = s->getOrder(tasks);
+//}
