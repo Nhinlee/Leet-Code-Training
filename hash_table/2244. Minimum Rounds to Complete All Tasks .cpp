@@ -17,9 +17,9 @@ public:
         return count;
     }
 };
-
-int main() {
-    Solution *s = new Solution();
-    auto tasks = vector<int> {2,2,3,3,2,4,4,4,4,4};
-    cout << s->minimumRounds(tasks);
-}
+//
+//int main() {
+//    Solution *s = new Solution();
+//    auto tasks = vector<int> {2,2,3,3,2,4,4,4,4,4};
+//    cout << s->minimumRounds(tasks);
+//}
