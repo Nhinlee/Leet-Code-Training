@@ -48,11 +48,11 @@ public:
     }
 };
 
-int main() {
-    Solution *s = new Solution();
-    vector<vector<int>> t = vector<vector<int>>{{1, 1},
-                                                {2, 2},
-                                                {3, 3},
-    };
-    cout << s->maxPoints(t);
-}
+//int main() {
+//    Solution *s = new Solution();
+//    vector<vector<int>> t = vector<vector<int>>{{1, 1},
+//                                                {2, 2},
+//                                                {3, 3},
+//    };
+//    cout << s->maxPoints(t);
+//}
