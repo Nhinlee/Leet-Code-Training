@@ -1409,8 +1409,41 @@ public:
         return false;
     }
 
-    // https://leetcode.com/problems/assign-cookies/
+    int m = 1e9 + 7;
 
+    int power(int x, int n) {
+        long long temp;
+        if (n == 0)
+            return 1;
+        temp = power(x, n / 2) % m;
+        if (n % 2 == 0)
+            return temp * temp % m;
+        else
+            return x * temp * temp % m;
+    }
+
+
+    int monkeyMove(int n) {
+        int rs = power(2, n) - 2;
+        return rs < 0 ? rs + m : rs;
+    }
+
+
+    long long putMarbles(vector<int> &weights, int k) {
+        int n = weights.size();
+        if (k == 1 || n == k) return 0;
+        vector<int> candidates;
+        for (int i = 0; i < n - 1; i++) {
+            candidates.push_back(weights[i] + weights[i + 1]);
+        }
+        sort(candidates.begin(), candidates.end());
+        long long mins = 0, maxs = 0;
+        for (int i = 0; i < k - 1; i++) {
+            mins += candidates[i];
+            maxs += candidates[n - 2 - i];
+        }
+        return maxs - mins;
+    }
 
 };
 
@@ -1541,13 +1574,13 @@ public:
 
 };
 
-//int main() {
-//    // DATA
-//    vector<int> a{10, 15, 20};
-//    string s = "a1b01c001";
-//
-//    // SOLUTION
-//    Solution *so = new Solution();
-//    so->minCostClimbingStairs(a);
-//    return 0;
-//}
+int main() {
+    // DATA
+    vector<int> a{10, 15, 20};
+    string s = "a1b01c001";
+
+    // SOLUTION
+    Solution *so = new Solution();
+    so->minCostClimbingStairs(a);
+    return 0;
+}
