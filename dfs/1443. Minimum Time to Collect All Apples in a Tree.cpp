@@ -70,14 +70,14 @@ public:
     }
 };
 
-int main() {
-    Solution *s = new Solution();
-    auto edges = vector<vector<int>>{{2, 6},
-                                     {0, 1},
-                                     {0, 2},
-                                     {1, 4},
-                                     {1, 5},
-                                     {2, 3}};
-    auto hasApple = vector<bool>{false, false, true, false, true, true, false};
-    cout << s->minTime(7, edges, hasApple);
-}
+//int main() {
+//    Solution *s = new Solution();
+//    auto edges = vector<vector<int>>{{2, 6},
+//                                     {0, 1},
+//                                     {0, 2},
+//                                     {1, 4},
+//                                     {1, 5},
+//                                     {2, 3}};
+//    auto hasApple = vector<bool>{false, false, true, false, true, true, false};
+//    cout << s->minTime(7, edges, hasApple);
+//}
