@@ -1574,13 +1574,13 @@ public:
 
 };
 
-int main() {
-    // DATA
-    vector<int> a{10, 15, 20};
-    string s = "a1b01c001";
-
-    // SOLUTION
-    Solution *so = new Solution();
-    so->minCostClimbingStairs(a);
-    return 0;
-}
+//int main() {
+//    // DATA
+//    vector<int> a{10, 15, 20};
+//    string s = "a1b01c001";
+//
+//    // SOLUTION
+//    Solution *so = new Solution();
+//    so->minCostClimbingStairs(a);
+//    return 0;
+//}

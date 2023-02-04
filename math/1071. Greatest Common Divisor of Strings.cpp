@@ -34,9 +34,9 @@ public:
         return str1.substr(0, gcdLength);
     }
 };
-
-int main() {
-    Solution *s = new Solution();
-
-    cout << s->gcdOfStrings("ABCABC", "ABC");
-}
+//
+//int main() {
+//    Solution *s = new Solution();
+//
+//    cout << s->gcdOfStrings("ABCABC", "ABC");
+//}
