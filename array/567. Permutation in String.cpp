@@ -60,8 +60,8 @@ public:
     }
 
 };
-
-int main() {
-    Solution *s = new Solution();
-    cout << s->checkInclusion("ab", "ab");
-}
+//
+//int main() {
+//    Solution *s = new Solution();
+//    cout << s->checkInclusion("ab", "ab");
+//}
