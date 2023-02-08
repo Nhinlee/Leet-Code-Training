@@ -126,8 +126,8 @@ public:
     }
 };
 
-int main() {
-    Solution *s = new Solution();
-    vector<int> a = vector<int>{1, 2, 1, 2, 1, 3, 3};
-    cout << s->minCost(a, 2);
-}
+//int main() {
+//    Solution *s = new Solution();
+//    vector<int> a = vector<int>{1, 2, 1, 2, 1, 3, 3};
+//    cout << s->minCost(a, 2);
+//}

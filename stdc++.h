@@ -9,6 +9,7 @@
 #include "regex"
 #include <bitset>
 #include <list>
+#include <unordered_map>
 
 
 using namespace std;
