@@ -69,9 +69,9 @@ public:
         return max_len;
     }
 };
-
-int main() {
-    Solution *s = new Solution();
-    vector<int> f = vector<int>({0,1,2,2});
-    cout<<s->totalFruit(f);
-}
+//
+//int main() {
+//    Solution *s = new Solution();
+//    vector<int> f = vector<int>({0,1,2,2});
+//    cout<<s->totalFruit(f);
+//}
