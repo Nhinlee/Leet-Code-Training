@@ -84,12 +84,12 @@ public:
     }
 };
 
-int main() {
-    Solution *s = new Solution();
-    vector<int> nums = vector<int>{5, 7, 5, 7, 5};
-
-    cout << s->countFairPairs(nums, 12, 12);
-}
+//int main() {
+//    Solution *s = new Solution();
+//    vector<int> nums = vector<int>{5, 7, 5, 7, 5};
+//
+//    cout << s->countFairPairs(nums, 12, 12);
+//}
 
 //[6,9,4,2,7,5,10,3]
 //13
