@@ -90,10 +90,10 @@ public:
     }
 };
 
-int main() {
-    Solution *s = new Solution();
-    vector<int> a = vector<int>{2,2,4,2,2,2};
-    vector<int> b = vector<int>{3,3,3,4,3,2};
-
-    cout << s->minCost(a, b);
-}
+//int main() {
+//    Solution *s = new Solution();
+//    vector<int> a = vector<int>{2,2,4,2,2,2};
+//    vector<int> b = vector<int>{3,3,3,4,3,2};
+//
+//    cout << s->minCost(a, b);
+//}
