@@ -52,8 +52,8 @@ public:
     }
 };
 
-int main() {
-    Solution *s = new Solution();
-    vector<int> nums{20,14,14,1};
-    cout << s->primeSubOperation(nums);
-}
+//int main() {
+//    Solution *s = new Solution();
+//    vector<int> nums{20,14,14,1};
+//    cout << s->primeSubOperation(nums);
+//}
