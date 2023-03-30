@@ -48,10 +48,10 @@ public:
     }
 };
 
-int main() {
-    Solution *s = new Solution();
-    vector<vector<int>> a = {{1, 3, 1},
-                             {1, 5, 1},
-                             {4, 2, 1}};
-    s->minPathSumC2(a);
-}
+//int main() {
+//    Solution *s = new Solution();
+//    vector<vector<int>> a = {{1, 3, 1},
+//                             {1, 5, 1},
+//                             {4, 2, 1}};
+//    s->minPathSumC2(a);
+//}
