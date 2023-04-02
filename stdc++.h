@@ -14,6 +14,7 @@
 
 using namespace std;
 
+typedef pair<int,int> pp;
 
 struct TreeNode {
     int val;

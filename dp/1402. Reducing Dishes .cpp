@@ -24,9 +24,9 @@ public:
     }
 };
 
-int main() {
-    Solution *s = new Solution();
-    auto a = vector<int>{2, -2, -3, 1};
-    cout << s->maxSatisfaction(a);
-    return 0;
-}
+//int main() {
+//    Solution *s = new Solution();
+//    auto a = vector<int>{2, -2, -3, 1};
+//    cout << s->maxSatisfaction(a);
+//    return 0;
+//}
