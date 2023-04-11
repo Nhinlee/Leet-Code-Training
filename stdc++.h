@@ -34,6 +34,7 @@ class Node {
 public:
     int val;
     vector<Node *> children;
+    vector<Node *> neighbors;
 
     Node() {}
 
