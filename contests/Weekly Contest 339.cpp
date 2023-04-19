@@ -81,8 +81,8 @@ public:
     }
 };
 
-int main() {
-    Solution *s = new Solution();
-
-    cout << s->findTheLongestBalancedSubstring("01000111");
-}
+//int main() {
+//    Solution *s = new Solution();
+//
+//    cout << s->findTheLongestBalancedSubstring("01000111");
+//}
