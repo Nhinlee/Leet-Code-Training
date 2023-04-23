@@ -68,11 +68,11 @@ public:
     }
 };
 
-int main() {
-    vector<int> nums = vector<int>{39, 70, 33};
-    vector<int> d = vector<int>{7, 4};
-    string t = "aaaaab";
-    Solution *s = new Solution();
-    cout << s->addMinimum(t);
-    return 0;
-}
+//int main() {
+//    vector<int> nums = vector<int>{39, 70, 33};
+//    vector<int> d = vector<int>{7, 4};
+//    string t = "aaaaab";
+//    Solution *s = new Solution();
+//    cout << s->addMinimum(t);
+//    return 0;
+//}
