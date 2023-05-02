@@ -52,12 +52,12 @@ public:
     }
 };
 
-int main() {
-    vector<int> nums = vector<int>{10,5,10,30,70,4,2,6,8,4};
-    vector<int> d = vector<int>{7, 4};
-    string t = "aaaaab";
-    Solution *s = new Solution();
-    cout << s->minOperations(nums);
-
-    return 0;
-}
+//int main() {
+//    vector<int> nums = vector<int>{10,5,10,30,70,4,2,6,8,4};
+//    vector<int> d = vector<int>{7, 4};
+//    string t = "aaaaab";
+//    Solution *s = new Solution();
+//    cout << s->minOperations(nums);
+//
+//    return 0;
+//}
