@@ -60,19 +60,19 @@ public:
     }
 };
 
-int main() {
-    vector<vector<int>> nums = {{0, 2},
-                                {1, 2},
-                                {3, 1},
-                                {1, 1},
-                                {2, 1}};
-    vector<int> d = vector<int>{7, 4};
-    string t = "aaaaab";
-    Solution *s = new Solution();
-    s->colorTheArray(4, nums);
-
-    return 0;
-}
+//int main() {
+//    vector<vector<int>> nums = {{0, 2},
+//                                {1, 2},
+//                                {3, 1},
+//                                {1, 1},
+//                                {2, 1}};
+//    vector<int> d = vector<int>{7, 4};
+//    string t = "aaaaab";
+//    Solution *s = new Solution();
+//    s->colorTheArray(4, nums);
+//
+//    return 0;
+//}
 
 class FrequencyTracker {
     map<int, int> nums, frequencies;
