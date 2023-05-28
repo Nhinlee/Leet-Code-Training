@@ -128,16 +128,16 @@ public:
     }
 };
 
-int main() {
-    vector<vector<int>> nums = {{0, 2},
-                                {1, 2},
-                                {3, 1},
-                                {1, 1},
-                                {2, 1}};
-    vector<int> d = vector<int>{1, 1, 0};
-    string t = "aaaaab";
-    Solution *s = new Solution();
-    s->doesValidArrayExist(d);
-
-    return 0;
-}
+//int main() {
+//    vector<vector<int>> nums = {{0, 2},
+//                                {1, 2},
+//                                {3, 1},
+//                                {1, 1},
+//                                {2, 1}};
+//    vector<int> d = vector<int>{1, 1, 0};
+//    string t = "aaaaab";
+//    Solution *s = new Solution();
+//    s->doesValidArrayExist(d);
+//
+//    return 0;
+//}
