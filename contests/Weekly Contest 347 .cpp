@@ -98,7 +98,7 @@ public:
     }
 };
 
-int main() {
-    Solution *s = new Solution();
-    cout << s->minimumCost("00");
-}
+//int main() {
+//    Solution *s = new Solution();
+//    cout << s->minimumCost("00");
+//}
