@@ -7,4 +7,5 @@ add_executable( stdc++.h "greedy/Remove Digit From Number to Maximize Result.cpp
         "binary_search_tree/501. Find Mode in Binary Search Tree.cpp"
         "binary_tree/2265. Count Nodes Equal to Average of Subtree.cpp"
         "stack/1441. Build an Array With Stack Operations.cpp"
-        "array/1503. Last Moment Before All Ants Fall Out of a Plank.cpp")
+        "array/1503. Last Moment Before All Ants Fall Out of a Plank.cpp"
+        "recursion/1980. Find Unique Binary String .cpp")
