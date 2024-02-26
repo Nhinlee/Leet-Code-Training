@@ -9,4 +9,5 @@ add_executable( stdc++.h "greedy/Remove Digit From Number to Maximize Result.cpp
         "stack/1441. Build an Array With Stack Operations.cpp"
         "array/1503. Last Moment Before All Ants Fall Out of a Plank.cpp"
         "recursion/1980. Find Unique Binary String .cpp"
-        "binary_search_tree/938. Range Sum of BST.cpp")
+        "binary_search_tree/938. Range Sum of BST.cpp"
+        "trie/208. Implement Trie (Prefix Tree).cpp")
